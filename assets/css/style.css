@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Patrick+Hand&family=Coming+Soon&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #3a3a3a;
+  background-color: #fdf6e3;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 28px 28px;
+  min-height: 100vh;
+}
+
+a {
+  color: #e06c55;
+  text-decoration: none;
+  border-bottom: 2px dashed #e06c55;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #c0392b;
+  border-bottom-style: solid;
+}
+
+#skip-to-content {
+  position: absolute;
+  left: -9999px;
+}
+
+/* ── Header ── */
+
+.page-header {
+  text-align: center;
+  padding: 3rem 1.5rem 2.5rem;
+  background-color: #fffdf7;
+  border-bottom: 4px solid #3a3a3a;
+  border-bottom-style: dashed;
+  position: relative;
+}
+
+.page-header::before {
+  content: '~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~';
+  display: block;
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  color: #7eb8a8;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 10%;
+  right: 10%;
+  height: 4px;
+  border-bottom: 3px dotted #d4a574;
+}
+
+.project-name {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2a6f5e;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  transform: rotate(-1deg);
+  display: inline-block;
+}
+
+.project-tagline {
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #7a6855;
+  max-width: 600px;
+  margin: 0 auto;
+  transform: rotate(0.5deg);
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem 0.5rem 0;
+  padding: 0.6rem 1.4rem;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #e06c55;
+  border: 3px solid #3a3a3a;
+  border-radius: 12px 4px 14px 6px;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 3px solid #3a3a3a;
+  transform: rotate(-1deg);
+  transition: transform 0.15s, background-color 0.2s;
+  box-shadow: 3px 3px 0 #3a3a3a;
+}
+
+.btn:hover {
+  transform: rotate(1deg) scale(1.05);
+  background-color: #c0392b;
+  color: #fff;
+}
+
+/* ── Main Content ── */
+
+.main-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 4rem;
+}
+
+.main-content h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 2.2rem;
+  color: #2a6f5e;
+  margin: 2.5rem 0 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid #7eb8a8;
+  border-bottom-style: wavy;
+  display: inline-block;
+  transform: rotate(-0.5deg);
+}
+
+.main-content h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 1.7rem;
+  color: #d4a574;
+  margin: 2rem 0 0.5rem;
+}
+
+.main-content p {
+  margin-bottom: 1rem;
+}
+
+.main-content > p:first-of-type {
+  font-size: 1.3rem;
+  color: #5a5040;
+  background: #fff9ee;
+  border: 2px dashed #d4a574;
+  border-radius: 8px 2px 10px 4px;
+  padding: 1.2rem 1.4rem;
+  transform: rotate(0.3deg);
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.05);
+}
+
+/* ── Lists ── */
+
+.main-content ul,
+.main-content ol {
+  margin: 0.5rem 0 1.5rem 1.2rem;
+}
+
+.main-content li {
+  margin-bottom: 0.4rem;
+  padding-left: 0.3rem;
+}
+
+.main-content ul li::marker {
+  content: '✦ ';
+  color: #e06c55;
+}
+
+/* ── Table ── */
+
+.main-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem 0 2rem;
+  border: 3px solid #3a3a3a;
+  border-radius: 10px 4px 12px 6px;
+  overflow: hidden;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.08);
+  transform: rotate(-0.3deg);
+}
+
+.main-content th {
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  background-color: #7eb8a8;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  border-bottom: 3px solid #3a3a3a;
+}
+
+.main-content td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px dashed #c5b8a5;
+  background-color: #fffdf7;
+}
+
+.main-content tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── Emphasis & strong ── */
+
+.main-content em {
+  color: #7a6855;
+  font-style: italic;
+}
+
+.main-content strong {
+  color: #2a6f5e;
+  font-weight: 600;
+}
+
+/* ── Blockquote (notebook margin note) ── */
+
+.main-content blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 5px solid #e06c55;
+  background: #fff5f2;
+  border-radius: 0 8px 8px 0;
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.05rem;
+  color: #6b5040;
+  transform: rotate(0.4deg);
+}
+
+/* ── Code ── */
+
+.main-content code {
+  font-family: monospace;
+  background: #eee8d5;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.main-content pre {
+  background: #eee8d5;
+  border: 2px solid #c5b8a5;
+  border-radius: 6px 2px 8px 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+/* ── Footer ── */
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 3px dashed #c5b8a5;
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  font-size: 0.95rem;
+  color: #9a8b78;
+}
+
+.site-footer a {
+  color: #7eb8a8;
+  border-bottom-color: #7eb8a8;
+}
+
+.site-footer-owner,
+.site-footer-credits {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Little doodle decorations ── */
+
+.main-content h2::before {
+  content: '✎ ';
+  color: #e06c55;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 600px) {
+  .project-name {
+    font-size: 2.2rem;
+  }
+
+  .project-tagline {
+    font-size: 1rem;
+  }
+
+  .main-content {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .main-content h2 {
+    font-size: 1.8rem;
+  }
+}

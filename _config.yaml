@@ -1,6 +1,4 @@
 title: Data Streaming DevRoom at FOSDEM 2027
 description: We're excited to announce the Data Streaming devroom for FOSDEM 2027
 show_downloads: false
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+plugins: []

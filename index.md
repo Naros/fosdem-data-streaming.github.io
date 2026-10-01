@@ -35,9 +35,9 @@ A few notes:
 
 ## CFP Selection Committee
 
-| Members (listed alphabetically by first name) | Organization/Community |
-| --------------------------------------------- | ---------------------- |
-| TBD | TBD |
+| Members (listed alphabetically by first name) | Project | Foundation/Organization |
+|-----------------------------------------------|---------|-------------------------|
+| TBD                                           | TBD     | TBD                     |
 
 ## To Submit
 
@@ -45,9 +45,14 @@ Go to the FOSDEM 2027 [Pretalx website](https://pretalx.fosdem.org/fosdem-2027/c
 
 [Let's get started](https://pretalx.fosdem.org/fosdem-2027/cfp)
 
-## Contacts
+## Organizers
 
-*   Giovanni Panice - Senior Software Engineer, Debezium
-*   Mario Fiore Vitale - Senior Software Engineer, Debezium
+
+| Members (listed alphabetically by first name) | Project  | Foundation/Organization |
+|-----------------------------------------------|----------|-------------------------|
+| Giovanni Panice                               | Debezium | Commonhaus              |
+| Mario Fiore Vitale                            | Debezium | Commonhaus              |
+| Vincenzo Santonastaso                         | Debezium | Commonhaus              | 
+
 
 

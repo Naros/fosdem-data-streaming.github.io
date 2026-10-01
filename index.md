@@ -35,9 +35,9 @@ A few notes:
 
 ## CFP Selection Committee
 
-| Members (listed alphabetically by first name) | Project | Foundation/Organization |
-|-----------------------------------------------|---------|-------------------------|
-| TBD                                           | TBD     | TBD                     |
+| Members | Project | Foundation/Organization |
+|---------|---------|-------------------------|
+| TBD     | TBD     | TBD                     |
 
 ## To Submit
 
@@ -48,11 +48,11 @@ Go to the FOSDEM 2027 [Pretalx website](https://pretalx.fosdem.org/fosdem-2027/c
 ## Organizers
 
 
-| Members (listed alphabetically by first name) | Project  | Foundation/Organization |
-|-----------------------------------------------|----------|-------------------------|
-| Giovanni Panice                               | Debezium | Commonhaus              |
-| Mario Fiore Vitale                            | Debezium | Commonhaus              |
-| Vincenzo Santonastaso                         | Debezium | Commonhaus              | 
+| Members               | Project  | Foundation/Organization |
+|-----------------------|----------|-------------------------|
+| Giovanni Panice       | Debezium | Commonhaus              |
+| Mario Fiore Vitale    | Debezium | Commonhaus              |
+| Vincenzo Santonastaso | Debezium | Commonhaus              | 
 
 
 
